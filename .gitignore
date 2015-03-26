@@ -1,0 +1,40 @@
+# Ignore image files
+/img
+./imagesproduits
+modules/tmbannerblock/slides/*.jpg
+
+# Ignore git hook scripts
+post_receive.php
+
+# Ignore settings file
+config/settings.inc.*
+
+# Ignore override for production
+override/classes/Link.php
+
+# Ignore log files
+log
+
+# Ignore cached files
+cache/cachefs
+cache/smarty/cache/*
+cache/smarty/cache/index.php
+cache/class_index.php
+cache/smarty/compile/*
+themes/theme531/cache
+
+# Ignore import files
+admin1032/import/*
+
+# Ignore backups
+**/backups/*
+
+# Ignore translation files
+#themes/**/modules/**/translations/*.php
+
+# Ignore maxdb geolocation db file
+tools/geoip/GeoLiteCity.dat
+
+# Ignore these filetypes
+*.zip
+admin1032/export/*.csv
