@@ -1,5 +1,4 @@
 # Ignore image files
-/img
 ./imagesproduits
 modules/tmbannerblock/slides/*.jpg
 
@@ -10,7 +9,7 @@ post_receive.php
 config/settings.inc.*
 
 # Ignore override for production
-override/classes/Link.php
+# override/classes/Link.php
 
 # Ignore log files
 log
